@@ -36,7 +36,7 @@ function loadGoogleTranslate() {
 
 // contact form validation
 const form = document.getElementById('contactForm');
-form.addEventListener('submit', function (event) {
+form.addEventListener('submit', function(event) {
     event.preventDefault();
     const name = document.getElementById('name1').value;
     const email = document.getElementById('email1').value;
